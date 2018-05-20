@@ -101,13 +101,10 @@
 		D71A684720AB1DD5007F086F /* hero apps exe2 heart */ = {
 			isa = PBXGroup;
 			children = (
-				D71A684820AB1DD5007F086F /* AppDelegate.h */,
-				D71A684920AB1DD5007F086F /* AppDelegate.m */,
-				D71A684B20AB1DD5007F086F /* ViewController.h */,
-				D71A684C20AB1DD5007F086F /* ViewController.m */,
-				D71A684E20AB1DD5007F086F /* Main.storyboard */,
+				D7864F6020B04A190015C82D /* model */,
+				D7864F5E20B049CF0015C82D /* controller */,
+				D7864F5F20B04A0F0015C82D /* view */,
 				D71A685120AB1DD5007F086F /* Assets.xcassets */,
-				D71A685320AB1DD5007F086F /* LaunchScreen.storyboard */,
 				D71A685620AB1DD5007F086F /* Info.plist */,
 				D71A685720AB1DD5007F086F /* main.m */,
 			);
@@ -130,6 +127,33 @@
 				D71A686E20AB1DD5007F086F /* Info.plist */,
 			);
 			path = "hero apps exe2 heartUITests";
+			sourceTree = "<group>";
+		};
+		D7864F5E20B049CF0015C82D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				D71A684820AB1DD5007F086F /* AppDelegate.h */,
+				D71A684920AB1DD5007F086F /* AppDelegate.m */,
+				D71A684B20AB1DD5007F086F /* ViewController.h */,
+				D71A684C20AB1DD5007F086F /* ViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		D7864F5F20B04A0F0015C82D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D71A684E20AB1DD5007F086F /* Main.storyboard */,
+				D71A685320AB1DD5007F086F /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D7864F6020B04A190015C82D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,6 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "hero apps exe2 heart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ishay.hero-apps-exe2-heart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "hero apps exe2 heart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ishay.hero-apps-exe2-heart";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    BOOL status;
+    
+}
 
+@property (weak, nonatomic) IBOutlet UIImageView *heartImage;
 
 @end
 
